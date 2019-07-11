@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Années bisextiles</title>
+    <meta name="author" lang="fr" content="Solange Harmonie PICARD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="calendar.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="container min-vh-100 d-flex flex-column align-content-center">
+     <div class="row flex-grow-1 d-flex justify-content-center align-items-center">
+       <div class="col-12 col-md-4">
+         <div class="card center-block">
+           <div class="card-header">
+             <h3 class="text-center text-primary font-weight-bold">Année bisextile</h3>
+           </div>
+           <div class="card-body">
+              <p class="card-text text-justify">
+                Une année bissextile est une année comptant 366 jours au lieu de 365. Tous les quatre ans il y a une année comprenant un 29 février. Chaque année divisible par quatre est une année bissextile.
+              </p>
+              <p class="card-text text-justify">
+                  Cette application vérifie si l'année entrée par l'utilisateur est bisextile ou non .
+              </p>
+              <div class="form-group">
+                <form action="">
+                  <input style="width: 100%;" type="text" id="year" placeholder="Renseignez une année." required>
+                  <br><br>
+                  <input id="button" type="button" class="btn btn-outline-primary btn-lg btn-block" value="Soumettre">
+                </form>
+                  <br><br>
+                <p id="result"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
